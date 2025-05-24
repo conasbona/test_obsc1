@@ -1,0 +1,66 @@
+[
+  {
+    "type": "session_start",
+    "persona_id": "persona_003",
+    "user_agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.6045.159 Safari/537.36",
+    "proxy": {
+      "host": "pr.oxylabs.io",
+      "port": 7777,
+      "username": "customer-shaundevan_dM4al-cc-us",
+      "password": "Nila2121testmitmproxy_"
+    },
+    "timezone": "America/Los_Angeles",
+    "fonts": [
+      "Liberation Sans",
+      "DejaVu Sans",
+      "Arial"
+    ],
+    "urls": [
+      "https://www.reddit.com/",
+      "https://www.nytimes.com/",
+      "https://www.cnn.com/",
+      "https://www.bbc.com/",
+      "https://www.wikipedia.org/"
+    ],
+    "timestamp": "2025-05-22T22:29:11.505Z"
+  },
+  {
+    "type": "error",
+    "action": "goto",
+    "url": "https://www.reddit.com/",
+    "error": "page.goto: Target page, context or browser has been closed\nCall log:\n\u001b[2m  - navigating to \"https://www.reddit.com/\", waiting until \"networkidle\"\u001b[22m\n",
+    "timestamp": "2025-05-22T22:29:24.804Z"
+  },
+  {
+    "type": "error",
+    "action": "goto",
+    "url": "https://www.nytimes.com/",
+    "error": "page.goto: Target page, context or browser has been closed",
+    "timestamp": "2025-05-22T22:29:24.805Z"
+  },
+  {
+    "type": "error",
+    "action": "goto",
+    "url": "https://www.cnn.com/",
+    "error": "page.goto: Target page, context or browser has been closed",
+    "timestamp": "2025-05-22T22:29:24.806Z"
+  },
+  {
+    "type": "error",
+    "action": "goto",
+    "url": "https://www.bbc.com/",
+    "error": "page.goto: Target page, context or browser has been closed",
+    "timestamp": "2025-05-22T22:29:24.808Z"
+  },
+  {
+    "type": "error",
+    "action": "goto",
+    "url": "https://www.wikipedia.org/",
+    "error": "page.goto: Target page, context or browser has been closed",
+    "timestamp": "2025-05-22T22:29:24.810Z"
+  },
+  {
+    "type": "session_end",
+    "timestamp": "2025-05-22T22:29:24.810Z"
+  }
+]

@@ -1,0 +1,161 @@
+[
+  {
+    "type": "session_start",
+    "persona_id": "persona_002",
+    "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.1 Safari/605.1.15",
+    "proxy": {
+      "host": "pr.oxylabs.io",
+      "port": 7777,
+      "username": "customer-shaundevan_dM4al-cc-us",
+      "password": "Nila2121testmitmproxy_"
+    },
+    "timezone": "America/Chicago",
+    "fonts": [
+      "Helvetica Neue",
+      "Geneva",
+      "Arial"
+    ],
+    "urls": [
+      "https://www.cnn.com/",
+      "https://www.wikipedia.org/",
+      "https://www.bbc.com/",
+      "https://www.reddit.com/",
+      "https://www.nytimes.com/"
+    ],
+    "plannerType": "random",
+    "timestamp": "2025-05-23T00:15:00.988Z"
+  },
+  {
+    "type": "action",
+    "action": {
+      "type": "visit",
+      "params": {
+        "url": "https://www.cnn.com/"
+      }
+    },
+    "plannerType": "random",
+    "timestamp": "2025-05-23T00:15:03.376Z"
+  },
+  {
+    "type": "action",
+    "action": {
+      "type": "scroll",
+      "params": {
+        "direction": "down",
+        "amount": 516
+      }
+    },
+    "plannerType": "random",
+    "timestamp": "2025-05-23T00:15:03.402Z"
+  },
+  {
+    "type": "action",
+    "action": {
+      "type": "dwell",
+      "params": {
+        "duration": 1150
+      }
+    },
+    "plannerType": "random",
+    "timestamp": "2025-05-23T00:15:04.555Z"
+  },
+  {
+    "type": "action",
+    "action": {
+      "type": "click",
+      "params": {
+        "selector": "body"
+      }
+    },
+    "plannerType": "random",
+    "timestamp": "2025-05-23T00:15:05.983Z"
+  },
+  {
+    "type": "action",
+    "action": {
+      "type": "dwell",
+      "params": {
+        "duration": 684
+      }
+    },
+    "plannerType": "random",
+    "timestamp": "2025-05-23T00:15:06.668Z"
+  },
+  {
+    "type": "action",
+    "action": {
+      "type": "click",
+      "params": {
+        "selector": "body"
+      }
+    },
+    "plannerType": "random",
+    "timestamp": "2025-05-23T00:15:08.042Z"
+  },
+  {
+    "type": "action",
+    "action": {
+      "type": "dwell",
+      "params": {
+        "duration": 1343
+      }
+    },
+    "plannerType": "random",
+    "timestamp": "2025-05-23T00:15:09.397Z"
+  },
+  {
+    "type": "action",
+    "action": {
+      "type": "click",
+      "params": {
+        "selector": "body"
+      }
+    },
+    "plannerType": "random",
+    "timestamp": "2025-05-23T00:15:09.993Z"
+  },
+  {
+    "type": "action",
+    "action": {
+      "type": "click",
+      "params": {
+        "selector": "body"
+      }
+    },
+    "plannerType": "random",
+    "timestamp": "2025-05-23T00:15:11.893Z"
+  },
+  {
+    "type": "action_error",
+    "error": "page.waitForTimeout: Target page, context or browser has been closed",
+    "action": {
+      "type": "dwell",
+      "params": {
+        "duration": 1205
+      }
+    },
+    "timestamp": "2025-05-23T00:15:12.432Z"
+  },
+  {
+    "type": "fatal_error",
+    "error": "Page closed before actions",
+    "url": "https://www.cnn.com/",
+    "timestamp": "2025-05-23T00:15:12.432Z"
+  },
+  {
+    "type": "fatal_error",
+    "error": "Page closed before actions",
+    "url": "https://www.cnn.com/",
+    "timestamp": "2025-05-23T00:15:12.432Z"
+  },
+  {
+    "type": "fatal_error",
+    "error": "Page closed before actions",
+    "url": "https://www.cnn.com/",
+    "timestamp": "2025-05-23T00:15:12.432Z"
+  },
+  {
+    "type": "session_end",
+    "timestamp": "2025-05-23T00:15:12.432Z"
+  }
+]

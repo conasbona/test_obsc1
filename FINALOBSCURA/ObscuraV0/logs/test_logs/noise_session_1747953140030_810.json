@@ -1,0 +1,71 @@
+[
+  {
+    "type": "session_start",
+    "persona_id": "persona_002",
+    "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.1 Safari/605.1.15",
+    "proxy": {
+      "host": "pr.oxylabs.io",
+      "port": 7777,
+      "username": "customer-shaundevan_dM4al-cc-us",
+      "password": "Nila2121testmitmproxy_"
+    },
+    "timezone": "America/Chicago",
+    "fonts": [
+      "Helvetica Neue",
+      "Geneva",
+      "Arial"
+    ],
+    "urls": [
+      "https://www.wikipedia.org/",
+      "https://www.bbc.com/",
+      "https://www.reddit.com/",
+      "https://www.cnn.com/",
+      "https://www.nytimes.com/"
+    ],
+    "timestamp": "2025-05-22T22:32:20.619Z"
+  },
+  {
+    "type": "visit",
+    "url": "https://www.wikipedia.org/",
+    "timestamp": "2025-05-22T22:32:22.230Z"
+  },
+  {
+    "type": "dwell",
+    "ms": 690,
+    "timestamp": "2025-05-22T22:32:22.230Z"
+  },
+  {
+    "type": "action",
+    "action": "scroll",
+    "status": "success",
+    "timestamp": "2025-05-22T22:32:23.361Z"
+  },
+  {
+    "type": "action",
+    "action": "mouse",
+    "status": "success",
+    "timestamp": "2025-05-22T22:32:24.201Z"
+  },
+  {
+    "type": "action",
+    "action": "click",
+    "status": "error",
+    "error": "elementHandle.click: Target page, context or browser has been closed\nCall log:\n\u001b[2m  - attempting click action\u001b[22m\n\u001b[2m    2 × waiting for element to be visible, enabled and stable\u001b[22m\n\u001b[2m      - element is not visible\u001b[22m\n\u001b[2m    - retrying click action\u001b[22m\n\u001b[2m    - waiting 20ms\u001b[22m\n\u001b[2m    2 × waiting for element to be visible, enabled and stable\u001b[22m\n\u001b[2m      - element is not visible\u001b[22m\n\u001b[2m    - retrying click action\u001b[22m\n\u001b[2m      - waiting 100ms\u001b[22m\n\u001b[2m    13 × waiting for element to be visible, enabled and stable\u001b[22m\n\u001b[2m       - element is not visible\u001b[22m\n\u001b[2m     - retrying click action\u001b[22m\n\u001b[2m       - waiting 500ms\u001b[22m\n",
+    "timestamp": "2025-05-22T22:32:31.469Z"
+  },
+  {
+    "type": "dwell",
+    "ms": 215,
+    "timestamp": "2025-05-22T22:32:31.469Z"
+  },
+  {
+    "type": "fatal_error",
+    "error": "page.waitForTimeout: Target page, context or browser has been closed",
+    "stack": "page.waitForTimeout: Target page, context or browser has been closed\n    at run (C:\\Users\\shaun\\Downloads\\xander_obscura\\puppet_runner.js:142:20)",
+    "timestamp": "2025-05-22T22:32:31.470Z"
+  },
+  {
+    "type": "session_end",
+    "timestamp": "2025-05-22T22:32:31.470Z"
+  }
+]

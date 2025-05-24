@@ -1,0 +1,157 @@
+[
+  {
+    "type": "session_start",
+    "persona_id": "persona_002",
+    "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.1 Safari/605.1.15",
+    "proxy": {
+      "host": "pr.oxylabs.io",
+      "port": 7777,
+      "username": "customer-shaundevan_dM4al-cc-us",
+      "password": "Nila2121testmitmproxy_"
+    },
+    "timezone": "America/Chicago",
+    "fonts": [
+      "Helvetica Neue",
+      "Geneva",
+      "Arial"
+    ],
+    "urls": [
+      "https://www.reddit.com/",
+      "https://www.bbc.com/",
+      "https://www.wikipedia.org/",
+      "https://www.cnn.com/",
+      "https://www.nytimes.com/"
+    ],
+    "plannerType": "llm",
+    "timestamp": "2025-05-23T18:33:08.354Z"
+  },
+  {
+    "type": "planner_info",
+    "info": "Loaded LLM planner",
+    "timestamp": "2025-05-23T18:33:09.339Z"
+  },
+  {
+    "type": "llm_action",
+    "planner": "llm",
+    "prompt": "Persona:\n{\n  \"persona_id\": \"persona_002\",\n  \"user_agent\": \"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.1 Safari/605.1.15\",\n  \"region\": \"us\",\n  \"proxy\": {\n    \"host\": \"pr.oxylabs.io\",\n    \"port\": 7777,\n    \"username\": \"customer-shaundevan_dM4al-cc-us\",\n    \"password\": \"Nila2121testmitmproxy_\"\n  },\n  \"planner\": \"llm\",\n  \"extra\": {\n    \"fonts\": [\n      \"Helvetica Neue\",\n      \"Geneva\",\n      \"Arial\"\n    ],\n    \"timezone\": \"America/Chicago\"\n  }\n}\n\nSession action history (most recent first):\n[\n  {\n    \"type\": \"visit\",\n    \"params\": {\n      \"url\": \"https://www.reddit.com/\"\n    }\n  }\n]\n\nCurrent page:\nhttps://www.reddit.com/\n\nCurrent page DOM context:\n{\n  \"title\": \"\",\n  \"snippet\": \"\",\n  \"links\": [],\n  \"searchInputs\": []\n}\n\nAllowed actions:\n[\n  {\n    \"type\": \"visit\",\n    \"params\": [\n      \"url\"\n    ]\n  },\n  {\n    \"type\": \"scroll\",\n    \"params\": [\n      \"direction\",\n      \"amount\"\n    ]\n  },\n  {\n    \"type\": \"click\",\n    \"params\": [\n      \"selector\"\n    ]\n  },\n  {\n    \"type\": \"dwell\",\n    \"params\": [\n      \"duration\"\n    ]\n  },\n  {\n    \"type\": \"search\",\n    \"params\": [\n      \"query\"\n    ]\n  },\n  {\n    \"type\": \"type\",\n    \"params\": [\n      \"selector\",\n      \"text\"\n    ]\n  },\n  {\n    \"type\": \"follow_link\",\n    \"params\": [\n      \"selector\",\n      \"url\"\n    ]\n  }\n]\n\nInstructions:\n1. If the current page is blank or about:blank, the first action MUST be a \"visit\" to a seed site.\n2. Otherwise, choose a realistic next action for the persona on the current page.\n3. You must select your next action using only the links and search inputs in this DOM context. Do not invent selectors or URLs.\n4. Actions must only use the allowed action types. Do NOT suggest logins, purchases, or form fills.\n5. The action must be appropriate for the persona and plausible for a human.\n6. Return only the action as a single-line JSON object, matching this schema:\n   {\"type\": \"ACTION_TYPE\", \"params\": {...}}\n   Example:\n   {\"type\": \"scroll\", \"params\": {\"direction\": \"down\", \"amount\": 400}}\n\nDO NOT return any explanation or text outside of the JSON object.",
+    "response": "{\"type\": \"dwell\", \"params\": {\"duration\": 5000}}",
+    "timestamp": "2025-05-23T18:33:10.582Z"
+  },
+  {
+    "type": "action_selected",
+    "action": {
+      "type": "dwell",
+      "params": {
+        "duration": 5000
+      }
+    },
+    "plannerType": "llm",
+    "timestamp": "2025-05-23T18:33:10.582Z"
+  },
+  {
+    "type": "action",
+    "action": {
+      "type": "dwell",
+      "params": {
+        "duration": 5000
+      }
+    },
+    "plannerType": "llm",
+    "timestamp": "2025-05-23T18:33:15.596Z"
+  },
+  {
+    "type": "llm_action",
+    "planner": "llm",
+    "prompt": "Persona:\n{\n  \"persona_id\": \"persona_002\",\n  \"user_agent\": \"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.1 Safari/605.1.15\",\n  \"region\": \"us\",\n  \"proxy\": {\n    \"host\": \"pr.oxylabs.io\",\n    \"port\": 7777,\n    \"username\": \"customer-shaundevan_dM4al-cc-us\",\n    \"password\": \"Nila2121testmitmproxy_\"\n  },\n  \"planner\": \"llm\",\n  \"extra\": {\n    \"fonts\": [\n      \"Helvetica Neue\",\n      \"Geneva\",\n      \"Arial\"\n    ],\n    \"timezone\": \"America/Chicago\"\n  }\n}\n\nSession action history (most recent first):\n[\n  {\n    \"type\": \"dwell\",\n    \"params\": {\n      \"duration\": 5000\n    }\n  },\n  {\n    \"type\": \"visit\",\n    \"params\": {\n      \"url\": \"https://www.reddit.com/\"\n    }\n  }\n]\n\nCurrent page:\nhttps://www.reddit.com/\n\nCurrent page DOM context:\n{\n  \"title\": \"\",\n  \"snippet\": \"\",\n  \"links\": [],\n  \"searchInputs\": []\n}\n\nAllowed actions:\n[\n  {\n    \"type\": \"visit\",\n    \"params\": [\n      \"url\"\n    ]\n  },\n  {\n    \"type\": \"scroll\",\n    \"params\": [\n      \"direction\",\n      \"amount\"\n    ]\n  },\n  {\n    \"type\": \"click\",\n    \"params\": [\n      \"selector\"\n    ]\n  },\n  {\n    \"type\": \"dwell\",\n    \"params\": [\n      \"duration\"\n    ]\n  },\n  {\n    \"type\": \"search\",\n    \"params\": [\n      \"query\"\n    ]\n  },\n  {\n    \"type\": \"type\",\n    \"params\": [\n      \"selector\",\n      \"text\"\n    ]\n  },\n  {\n    \"type\": \"follow_link\",\n    \"params\": [\n      \"selector\",\n      \"url\"\n    ]\n  }\n]\n\nInstructions:\n1. If the current page is blank or about:blank, the first action MUST be a \"visit\" to a seed site.\n2. Otherwise, choose a realistic next action for the persona on the current page.\n3. You must select your next action using only the links and search inputs in this DOM context. Do not invent selectors or URLs.\n4. Actions must only use the allowed action types. Do NOT suggest logins, purchases, or form fills.\n5. The action must be appropriate for the persona and plausible for a human.\n6. Return only the action as a single-line JSON object, matching this schema:\n   {\"type\": \"ACTION_TYPE\", \"params\": {...}}\n   Example:\n   {\"type\": \"scroll\", \"params\": {\"direction\": \"down\", \"amount\": 400}}\n\nDO NOT return any explanation or text outside of the JSON object.",
+    "response": "{\"type\": \"scroll\", \"params\": {\"direction\": \"down\", \"amount\": 500}}",
+    "timestamp": "2025-05-23T18:33:18.793Z"
+  },
+  {
+    "type": "action_selected",
+    "action": {
+      "type": "scroll",
+      "params": {
+        "direction": "down",
+        "amount": 500
+      }
+    },
+    "plannerType": "llm",
+    "timestamp": "2025-05-23T18:33:18.793Z"
+  },
+  {
+    "type": "action",
+    "action": {
+      "type": "scroll",
+      "params": {
+        "direction": "down",
+        "amount": 500
+      }
+    },
+    "plannerType": "llm",
+    "timestamp": "2025-05-23T18:33:18.799Z"
+  },
+  {
+    "type": "llm_action",
+    "planner": "llm",
+    "prompt": "Persona:\n{\n  \"persona_id\": \"persona_002\",\n  \"user_agent\": \"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.1 Safari/605.1.15\",\n  \"region\": \"us\",\n  \"proxy\": {\n    \"host\": \"pr.oxylabs.io\",\n    \"port\": 7777,\n    \"username\": \"customer-shaundevan_dM4al-cc-us\",\n    \"password\": \"Nila2121testmitmproxy_\"\n  },\n  \"planner\": \"llm\",\n  \"extra\": {\n    \"fonts\": [\n      \"Helvetica Neue\",\n      \"Geneva\",\n      \"Arial\"\n    ],\n    \"timezone\": \"America/Chicago\"\n  }\n}\n\nSession action history (most recent first):\n[\n  {\n    \"type\": \"scroll\",\n    \"params\": {\n      \"direction\": \"down\",\n      \"amount\": 500\n    }\n  },\n  {\n    \"type\": \"dwell\",\n    \"params\": {\n      \"duration\": 5000\n    }\n  },\n  {\n    \"type\": \"visit\",\n    \"params\": {\n      \"url\": \"https://www.reddit.com/\"\n    }\n  }\n]\n\nCurrent page:\nhttps://www.reddit.com/\n\nCurrent page DOM context:\n{\n  \"title\": \"\",\n  \"snippet\": \"\",\n  \"links\": [],\n  \"searchInputs\": []\n}\n\nAllowed actions:\n[\n  {\n    \"type\": \"visit\",\n    \"params\": [\n      \"url\"\n    ]\n  },\n  {\n    \"type\": \"scroll\",\n    \"params\": [\n      \"direction\",\n      \"amount\"\n    ]\n  },\n  {\n    \"type\": \"click\",\n    \"params\": [\n      \"selector\"\n    ]\n  },\n  {\n    \"type\": \"dwell\",\n    \"params\": [\n      \"duration\"\n    ]\n  },\n  {\n    \"type\": \"search\",\n    \"params\": [\n      \"query\"\n    ]\n  },\n  {\n    \"type\": \"type\",\n    \"params\": [\n      \"selector\",\n      \"text\"\n    ]\n  },\n  {\n    \"type\": \"follow_link\",\n    \"params\": [\n      \"selector\",\n      \"url\"\n    ]\n  }\n]\n\nInstructions:\n1. If the current page is blank or about:blank, the first action MUST be a \"visit\" to a seed site.\n2. Otherwise, choose a realistic next action for the persona on the current page.\n3. You must select your next action using only the links and search inputs in this DOM context. Do not invent selectors or URLs.\n4. Actions must only use the allowed action types. Do NOT suggest logins, purchases, or form fills.\n5. The action must be appropriate for the persona and plausible for a human.\n6. Return only the action as a single-line JSON object, matching this schema:\n   {\"type\": \"ACTION_TYPE\", \"params\": {...}}\n   Example:\n   {\"type\": \"scroll\", \"params\": {\"direction\": \"down\", \"amount\": 400}}\n\nDO NOT return any explanation or text outside of the JSON object.",
+    "response": "{\"type\": \"dwell\", \"params\": {\"duration\": 3000}}",
+    "timestamp": "2025-05-23T18:33:19.767Z"
+  },
+  {
+    "type": "action_selected",
+    "action": {
+      "type": "dwell",
+      "params": {
+        "duration": 3000
+      }
+    },
+    "plannerType": "llm",
+    "timestamp": "2025-05-23T18:33:19.767Z"
+  },
+  {
+    "type": "action",
+    "action": {
+      "type": "dwell",
+      "params": {
+        "duration": 3000
+      }
+    },
+    "plannerType": "llm",
+    "timestamp": "2025-05-23T18:33:22.775Z"
+  },
+  {
+    "type": "llm_action",
+    "planner": "llm",
+    "prompt": "Persona:\n{\n  \"persona_id\": \"persona_002\",\n  \"user_agent\": \"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.1 Safari/605.1.15\",\n  \"region\": \"us\",\n  \"proxy\": {\n    \"host\": \"pr.oxylabs.io\",\n    \"port\": 7777,\n    \"username\": \"customer-shaundevan_dM4al-cc-us\",\n    \"password\": \"Nila2121testmitmproxy_\"\n  },\n  \"planner\": \"llm\",\n  \"extra\": {\n    \"fonts\": [\n      \"Helvetica Neue\",\n      \"Geneva\",\n      \"Arial\"\n    ],\n    \"timezone\": \"America/Chicago\"\n  }\n}\n\nSession action history (most recent first):\n[\n  {\n    \"type\": \"dwell\",\n    \"params\": {\n      \"duration\": 3000\n    }\n  },\n  {\n    \"type\": \"scroll\",\n    \"params\": {\n      \"direction\": \"down\",\n      \"amount\": 500\n    }\n  },\n  {\n    \"type\": \"dwell\",\n    \"params\": {\n      \"duration\": 5000\n    }\n  },\n  {\n    \"type\": \"visit\",\n    \"params\": {\n      \"url\": \"https://www.reddit.com/\"\n    }\n  }\n]\n\nCurrent page:\nhttps://www.reddit.com/\n\nCurrent page DOM context:\n{\n  \"title\": \"\",\n  \"snippet\": \"\",\n  \"links\": [],\n  \"searchInputs\": []\n}\n\nAllowed actions:\n[\n  {\n    \"type\": \"visit\",\n    \"params\": [\n      \"url\"\n    ]\n  },\n  {\n    \"type\": \"scroll\",\n    \"params\": [\n      \"direction\",\n      \"amount\"\n    ]\n  },\n  {\n    \"type\": \"click\",\n    \"params\": [\n      \"selector\"\n    ]\n  },\n  {\n    \"type\": \"dwell\",\n    \"params\": [\n      \"duration\"\n    ]\n  },\n  {\n    \"type\": \"search\",\n    \"params\": [\n      \"query\"\n    ]\n  },\n  {\n    \"type\": \"type\",\n    \"params\": [\n      \"selector\",\n      \"text\"\n    ]\n  },\n  {\n    \"type\": \"follow_link\",\n    \"params\": [\n      \"selector\",\n      \"url\"\n    ]\n  }\n]\n\nInstructions:\n1. If the current page is blank or about:blank, the first action MUST be a \"visit\" to a seed site.\n2. Otherwise, choose a realistic next action for the persona on the current page.\n3. You must select your next action using only the links and search inputs in this DOM context. Do not invent selectors or URLs.\n4. Actions must only use the allowed action types. Do NOT suggest logins, purchases, or form fills.\n5. The action must be appropriate for the persona and plausible for a human.\n6. Return only the action as a single-line JSON object, matching this schema:\n   {\"type\": \"ACTION_TYPE\", \"params\": {...}}\n   Example:\n   {\"type\": \"scroll\", \"params\": {\"direction\": \"down\", \"amount\": 400}}\n\nDO NOT return any explanation or text outside of the JSON object.",
+    "response": "{\"type\": \"scroll\", \"params\": {\"direction\": \"down\", \"amount\": 500}}",
+    "timestamp": "2025-05-23T18:33:23.757Z"
+  },
+  {
+    "type": "action_selected",
+    "action": {
+      "type": "scroll",
+      "params": {
+        "direction": "down",
+        "amount": 500
+      }
+    },
+    "plannerType": "llm",
+    "timestamp": "2025-05-23T18:33:23.757Z"
+  },
+  {
+    "type": "action",
+    "action": {
+      "type": "scroll",
+      "params": {
+        "direction": "down",
+        "amount": 500
+      }
+    },
+    "plannerType": "llm",
+    "timestamp": "2025-05-23T18:33:23.761Z"
+  },
+  {
+    "type": "session_end",
+    "timestamp": "2025-05-23T18:33:24.275Z"
+  }
+]

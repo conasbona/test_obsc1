@@ -1,0 +1,174 @@
+[
+  {
+    "type": "session_start",
+    "persona_id": "persona_002",
+    "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.1 Safari/605.1.15",
+    "proxy": {
+      "host": "pr.oxylabs.io",
+      "port": 7777,
+      "username": "customer-shaundevan_dM4al-cc-us",
+      "password": "Nila2121testmitmproxy_"
+    },
+    "timezone": "America/Chicago",
+    "fonts": [
+      "Helvetica Neue",
+      "Geneva",
+      "Arial"
+    ],
+    "urls": [
+      "https://www.bbc.com/",
+      "https://www.wikipedia.org/",
+      "https://www.nytimes.com/",
+      "https://www.cnn.com/",
+      "https://www.reddit.com/"
+    ],
+    "timestamp": "2025-05-22T22:17:24.689Z"
+  },
+  {
+    "type": "visit",
+    "url": "https://www.bbc.com/",
+    "timestamp": "2025-05-22T22:17:39.056Z"
+  },
+  {
+    "type": "dwell",
+    "ms": 684,
+    "timestamp": "2025-05-22T22:17:39.057Z"
+  },
+  {
+    "type": "action",
+    "action": "scroll",
+    "status": "success",
+    "timestamp": "2025-05-22T22:17:40.221Z"
+  },
+  {
+    "type": "action",
+    "action": "mouse",
+    "status": "success",
+    "timestamp": "2025-05-22T22:17:40.724Z"
+  },
+  {
+    "type": "action",
+    "action": "click",
+    "status": "error",
+    "error": "elementHandle.scrollIntoViewIfNeeded: Timeout 30000ms exceeded.\nCall log:\n\u001b[2m  - attempting scroll into view action\u001b[22m\n\u001b[2m    2 × waiting for element to be stable\u001b[22m\n\u001b[2m      - element is not visible\u001b[22m\n\u001b[2m    - retrying scroll into view action\u001b[22m\n\u001b[2m    - waiting 20ms\u001b[22m\n\u001b[2m    2 × waiting for element to be stable\u001b[22m\n\u001b[2m      - element is not visible\u001b[22m\n\u001b[2m    - retrying scroll into view action\u001b[22m\n\u001b[2m      - waiting 100ms\u001b[22m\n\u001b[2m    57 × waiting for element to be stable\u001b[22m\n\u001b[2m       - element is not visible\u001b[22m\n\u001b[2m     - retrying scroll into view action\u001b[22m\n\u001b[2m       - waiting 500ms\u001b[22m\n",
+    "timestamp": "2025-05-22T22:18:10.833Z"
+  },
+  {
+    "type": "dwell",
+    "ms": 303,
+    "timestamp": "2025-05-22T22:18:10.833Z"
+  },
+  {
+    "type": "action",
+    "action": "scroll",
+    "status": "success",
+    "timestamp": "2025-05-22T22:18:12.230Z"
+  },
+  {
+    "type": "action",
+    "action": "mouse",
+    "status": "success",
+    "timestamp": "2025-05-22T22:18:13.153Z"
+  },
+  {
+    "type": "action",
+    "action": "click",
+    "status": "success",
+    "timestamp": "2025-05-22T22:18:15.366Z"
+  },
+  {
+    "type": "dwell",
+    "ms": 381,
+    "timestamp": "2025-05-22T22:18:15.366Z"
+  },
+  {
+    "type": "action",
+    "action": "scroll",
+    "status": "success",
+    "timestamp": "2025-05-22T22:18:16.604Z"
+  },
+  {
+    "type": "action",
+    "action": "mouse",
+    "status": "success",
+    "timestamp": "2025-05-22T22:18:17.039Z"
+  },
+  {
+    "type": "action",
+    "action": "click",
+    "status": "success",
+    "timestamp": "2025-05-22T22:18:18.785Z"
+  },
+  {
+    "type": "dwell",
+    "ms": 264,
+    "timestamp": "2025-05-22T22:18:18.785Z"
+  },
+  {
+    "type": "action",
+    "action": "scroll",
+    "status": "success",
+    "timestamp": "2025-05-22T22:18:19.993Z"
+  },
+  {
+    "type": "action",
+    "action": "mouse",
+    "status": "success",
+    "timestamp": "2025-05-22T22:18:20.724Z"
+  },
+  {
+    "type": "action",
+    "action": "click",
+    "status": "success",
+    "timestamp": "2025-05-22T22:18:24.703Z"
+  },
+  {
+    "type": "dwell",
+    "ms": 271,
+    "timestamp": "2025-05-22T22:18:24.703Z"
+  },
+  {
+    "type": "visit",
+    "url": "https://www.wikipedia.org/",
+    "timestamp": "2025-05-22T22:18:26.914Z"
+  },
+  {
+    "type": "dwell",
+    "ms": 511,
+    "timestamp": "2025-05-22T22:18:26.914Z"
+  },
+  {
+    "type": "action",
+    "action": "scroll",
+    "status": "success",
+    "timestamp": "2025-05-22T22:18:28.610Z"
+  },
+  {
+    "type": "action",
+    "action": "mouse",
+    "status": "success",
+    "timestamp": "2025-05-22T22:18:29.170Z"
+  },
+  {
+    "type": "action",
+    "action": "click",
+    "status": "error",
+    "error": "elementHandle.click: Target page, context or browser has been closed\nCall log:\n\u001b[2m  - attempting click action\u001b[22m\n\u001b[2m    2 × waiting for element to be visible, enabled and stable\u001b[22m\n\u001b[2m      - element is not visible\u001b[22m\n\u001b[2m    - retrying click action\u001b[22m\n\u001b[2m    - waiting 20ms\u001b[22m\n\u001b[2m    2 × waiting for element to be visible, enabled and stable\u001b[22m\n\u001b[2m      - element is not visible\u001b[22m\n\u001b[2m    - retrying click action\u001b[22m\n\u001b[2m      - waiting 100ms\u001b[22m\n\u001b[2m    37 × waiting for element to be visible, enabled and stable\u001b[22m\n\u001b[2m       - element is not visible\u001b[22m\n\u001b[2m     - retrying click action\u001b[22m\n\u001b[2m       - waiting 500ms\u001b[22m\n",
+    "timestamp": "2025-05-22T22:18:49.127Z"
+  },
+  {
+    "type": "dwell",
+    "ms": 497,
+    "timestamp": "2025-05-22T22:18:49.127Z"
+  },
+  {
+    "type": "fatal_error",
+    "error": "page.waitForTimeout: Target page, context or browser has been closed",
+    "stack": "page.waitForTimeout: Target page, context or browser has been closed\n    at run (C:\\Users\\shaun\\Downloads\\xander_obscura\\puppet_runner.js:141:20)",
+    "timestamp": "2025-05-22T22:18:49.127Z"
+  },
+  {
+    "type": "session_end",
+    "timestamp": "2025-05-22T22:18:49.127Z"
+  }
+]

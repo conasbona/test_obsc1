@@ -1,0 +1,21 @@
+{
+  "type": "module",
+  "name": "xander_obscura",
+  "version": "1.0.0",
+  "description": "Obscura anti-fingerprinting modular bundle",
+  "main": "obscura.bundle.js",
+  "scripts": {
+    "build": "esbuild core/injector.js --bundle --outfile=dist/obscura.bundle.js --format=iife"
+  },
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "dotenv": "^16.5.0",
+    "get-port": "^7.1.0",
+    "node-fetch": "^3.3.2",
+    "playwright": "^1.52.0"
+  },
+  "devDependencies": {
+    "electron": "^36.3.1"
+  }
+}

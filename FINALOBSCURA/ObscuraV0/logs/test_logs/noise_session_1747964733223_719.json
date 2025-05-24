@@ -1,0 +1,820 @@
+[
+  {
+    "type": "session_start",
+    "persona_id": "persona_002",
+    "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.1 Safari/605.1.15",
+    "proxy": {
+      "host": "pr.oxylabs.io",
+      "port": 7777,
+      "username": "customer-shaundevan_dM4al-cc-us",
+      "password": "Nila2121testmitmproxy_"
+    },
+    "timezone": "America/Chicago",
+    "fonts": [
+      "Helvetica Neue",
+      "Geneva",
+      "Arial"
+    ],
+    "urls": [
+      "https://www.wikipedia.org/",
+      "https://www.reddit.com/",
+      "https://www.cnn.com/",
+      "https://www.nytimes.com/",
+      "https://www.bbc.com/"
+    ],
+    "plannerType": "llm",
+    "timestamp": "2025-05-23T01:45:33.647Z"
+  },
+  {
+    "type": "planner_fallback",
+    "reason": "LLM planner failed",
+    "details": "siteWhitelist is not defined",
+    "timestamp": "2025-05-23T01:45:35.611Z"
+  },
+  {
+    "type": "action",
+    "action": {
+      "type": "scroll",
+      "params": {
+        "direction": "down",
+        "amount": 974
+      }
+    },
+    "plannerType": "random",
+    "timestamp": "2025-05-23T01:45:35.617Z"
+  },
+  {
+    "type": "planner_fallback",
+    "reason": "LLM planner failed",
+    "details": "siteWhitelist is not defined",
+    "timestamp": "2025-05-23T01:45:36.123Z"
+  },
+  {
+    "type": "action",
+    "action": {
+      "type": "click",
+      "params": {
+        "selector": "body"
+      }
+    },
+    "plannerType": "random",
+    "timestamp": "2025-05-23T01:45:36.932Z"
+  },
+  {
+    "type": "planner_fallback",
+    "reason": "LLM planner failed",
+    "details": "siteWhitelist is not defined",
+    "timestamp": "2025-05-23T01:45:37.440Z"
+  },
+  {
+    "type": "action",
+    "action": {
+      "type": "scroll",
+      "params": {
+        "direction": "down",
+        "amount": 306
+      }
+    },
+    "plannerType": "random",
+    "timestamp": "2025-05-23T01:45:37.449Z"
+  },
+  {
+    "type": "planner_fallback",
+    "reason": "LLM planner failed",
+    "details": "siteWhitelist is not defined",
+    "timestamp": "2025-05-23T01:45:37.951Z"
+  },
+  {
+    "type": "action",
+    "action": {
+      "type": "scroll",
+      "params": {
+        "direction": "up",
+        "amount": 819
+      }
+    },
+    "plannerType": "random",
+    "timestamp": "2025-05-23T01:45:37.954Z"
+  },
+  {
+    "type": "planner_fallback",
+    "reason": "LLM planner failed",
+    "details": "siteWhitelist is not defined",
+    "timestamp": "2025-05-23T01:45:38.467Z"
+  },
+  {
+    "type": "action",
+    "action": {
+      "type": "click",
+      "params": {
+        "selector": "body"
+      }
+    },
+    "plannerType": "random",
+    "timestamp": "2025-05-23T01:45:38.504Z"
+  },
+  {
+    "type": "planner_fallback",
+    "reason": "LLM planner failed",
+    "details": "siteWhitelist is not defined",
+    "timestamp": "2025-05-23T01:45:39.014Z"
+  },
+  {
+    "type": "action",
+    "action": {
+      "type": "scroll",
+      "params": {
+        "direction": "up",
+        "amount": 357
+      }
+    },
+    "plannerType": "random",
+    "timestamp": "2025-05-23T01:45:39.018Z"
+  },
+  {
+    "type": "planner_fallback",
+    "reason": "LLM planner failed",
+    "details": "siteWhitelist is not defined",
+    "timestamp": "2025-05-23T01:45:39.529Z"
+  },
+  {
+    "type": "action",
+    "action": {
+      "type": "dwell",
+      "params": {
+        "duration": 859
+      }
+    },
+    "plannerType": "random",
+    "timestamp": "2025-05-23T01:45:40.391Z"
+  },
+  {
+    "type": "planner_fallback",
+    "reason": "LLM planner failed",
+    "details": "siteWhitelist is not defined",
+    "timestamp": "2025-05-23T01:45:40.903Z"
+  },
+  {
+    "type": "action",
+    "action": {
+      "type": "click",
+      "params": {
+        "selector": "body"
+      }
+    },
+    "plannerType": "random",
+    "timestamp": "2025-05-23T01:45:40.937Z"
+  },
+  {
+    "type": "planner_fallback",
+    "reason": "LLM planner failed",
+    "details": "siteWhitelist is not defined",
+    "timestamp": "2025-05-23T01:45:41.437Z"
+  },
+  {
+    "type": "action",
+    "action": {
+      "type": "dwell",
+      "params": {
+        "duration": 828
+      }
+    },
+    "plannerType": "random",
+    "timestamp": "2025-05-23T01:45:42.268Z"
+  },
+  {
+    "type": "planner_fallback",
+    "reason": "LLM planner failed",
+    "details": "siteWhitelist is not defined",
+    "timestamp": "2025-05-23T01:45:42.774Z"
+  },
+  {
+    "type": "action",
+    "action": {
+      "type": "click",
+      "params": {
+        "selector": "body"
+      }
+    },
+    "plannerType": "random",
+    "timestamp": "2025-05-23T01:45:42.803Z"
+  },
+  {
+    "type": "planner_fallback",
+    "reason": "LLM planner failed",
+    "details": "siteWhitelist is not defined",
+    "timestamp": "2025-05-23T01:45:43.305Z"
+  },
+  {
+    "type": "action",
+    "action": {
+      "type": "dwell",
+      "params": {
+        "duration": 1156
+      }
+    },
+    "plannerType": "random",
+    "timestamp": "2025-05-23T01:45:44.467Z"
+  },
+  {
+    "type": "planner_fallback",
+    "reason": "LLM planner failed",
+    "details": "siteWhitelist is not defined",
+    "timestamp": "2025-05-23T01:45:44.973Z"
+  },
+  {
+    "type": "action",
+    "action": {
+      "type": "scroll",
+      "params": {
+        "direction": "down",
+        "amount": 305
+      }
+    },
+    "plannerType": "random",
+    "timestamp": "2025-05-23T01:45:44.976Z"
+  },
+  {
+    "type": "planner_fallback",
+    "reason": "LLM planner failed",
+    "details": "siteWhitelist is not defined",
+    "timestamp": "2025-05-23T01:45:45.487Z"
+  },
+  {
+    "type": "action",
+    "action": {
+      "type": "scroll",
+      "params": {
+        "direction": "down",
+        "amount": 905
+      }
+    },
+    "plannerType": "random",
+    "timestamp": "2025-05-23T01:45:45.490Z"
+  },
+  {
+    "type": "planner_fallback",
+    "reason": "LLM planner failed",
+    "details": "siteWhitelist is not defined",
+    "timestamp": "2025-05-23T01:45:46.003Z"
+  },
+  {
+    "type": "action",
+    "action": {
+      "type": "click",
+      "params": {
+        "selector": "body"
+      }
+    },
+    "plannerType": "random",
+    "timestamp": "2025-05-23T01:45:47.112Z"
+  },
+  {
+    "type": "planner_fallback",
+    "reason": "LLM planner failed",
+    "details": "siteWhitelist is not defined",
+    "timestamp": "2025-05-23T01:45:47.626Z"
+  },
+  {
+    "type": "action",
+    "action": {
+      "type": "scroll",
+      "params": {
+        "direction": "down",
+        "amount": 651
+      }
+    },
+    "plannerType": "random",
+    "timestamp": "2025-05-23T01:45:47.632Z"
+  },
+  {
+    "type": "planner_fallback",
+    "reason": "LLM planner failed",
+    "details": "siteWhitelist is not defined",
+    "timestamp": "2025-05-23T01:45:48.147Z"
+  },
+  {
+    "type": "action",
+    "action": {
+      "type": "click",
+      "params": {
+        "selector": "body"
+      }
+    },
+    "plannerType": "random",
+    "timestamp": "2025-05-23T01:45:48.368Z"
+  },
+  {
+    "type": "planner_fallback",
+    "reason": "LLM planner failed",
+    "details": "siteWhitelist is not defined",
+    "timestamp": "2025-05-23T01:45:48.870Z"
+  },
+  {
+    "type": "action",
+    "action": {
+      "type": "dwell",
+      "params": {
+        "duration": 732
+      }
+    },
+    "plannerType": "random",
+    "timestamp": "2025-05-23T01:45:49.611Z"
+  },
+  {
+    "type": "planner_fallback",
+    "reason": "LLM planner failed",
+    "details": "siteWhitelist is not defined",
+    "timestamp": "2025-05-23T01:45:50.114Z"
+  },
+  {
+    "type": "action",
+    "action": {
+      "type": "scroll",
+      "params": {
+        "direction": "down",
+        "amount": 649
+      }
+    },
+    "plannerType": "random",
+    "timestamp": "2025-05-23T01:45:50.121Z"
+  },
+  {
+    "type": "planner_fallback",
+    "reason": "LLM planner failed",
+    "details": "siteWhitelist is not defined",
+    "timestamp": "2025-05-23T01:45:50.624Z"
+  },
+  {
+    "type": "action",
+    "action": {
+      "type": "click",
+      "params": {
+        "selector": "body"
+      }
+    },
+    "plannerType": "random",
+    "timestamp": "2025-05-23T01:45:50.983Z"
+  },
+  {
+    "type": "planner_fallback",
+    "reason": "LLM planner failed",
+    "details": "siteWhitelist is not defined",
+    "timestamp": "2025-05-23T01:45:51.498Z"
+  },
+  {
+    "type": "action",
+    "action": {
+      "type": "scroll",
+      "params": {
+        "direction": "down",
+        "amount": 792
+      }
+    },
+    "plannerType": "random",
+    "timestamp": "2025-05-23T01:45:51.504Z"
+  },
+  {
+    "type": "planner_fallback",
+    "reason": "LLM planner failed",
+    "details": "siteWhitelist is not defined",
+    "timestamp": "2025-05-23T01:45:52.008Z"
+  },
+  {
+    "type": "action",
+    "action": {
+      "type": "dwell",
+      "params": {
+        "duration": 728
+      }
+    },
+    "plannerType": "random",
+    "timestamp": "2025-05-23T01:45:52.751Z"
+  },
+  {
+    "type": "planner_fallback",
+    "reason": "LLM planner failed",
+    "details": "siteWhitelist is not defined",
+    "timestamp": "2025-05-23T01:45:53.257Z"
+  },
+  {
+    "type": "action",
+    "action": {
+      "type": "dwell",
+      "params": {
+        "duration": 1171
+      }
+    },
+    "plannerType": "random",
+    "timestamp": "2025-05-23T01:45:54.433Z"
+  },
+  {
+    "type": "planner_fallback",
+    "reason": "LLM planner failed",
+    "details": "siteWhitelist is not defined",
+    "timestamp": "2025-05-23T01:45:54.947Z"
+  },
+  {
+    "type": "action",
+    "action": {
+      "type": "dwell",
+      "params": {
+        "duration": 1220
+      }
+    },
+    "plannerType": "random",
+    "timestamp": "2025-05-23T01:45:56.177Z"
+  },
+  {
+    "type": "planner_fallback",
+    "reason": "LLM planner failed",
+    "details": "siteWhitelist is not defined",
+    "timestamp": "2025-05-23T01:45:56.690Z"
+  },
+  {
+    "type": "action",
+    "action": {
+      "type": "scroll",
+      "params": {
+        "direction": "down",
+        "amount": 996
+      }
+    },
+    "plannerType": "random",
+    "timestamp": "2025-05-23T01:45:56.696Z"
+  },
+  {
+    "type": "planner_fallback",
+    "reason": "LLM planner failed",
+    "details": "siteWhitelist is not defined",
+    "timestamp": "2025-05-23T01:45:57.202Z"
+  },
+  {
+    "type": "action",
+    "action": {
+      "type": "click",
+      "params": {
+        "selector": "body"
+      }
+    },
+    "plannerType": "random",
+    "timestamp": "2025-05-23T01:45:57.515Z"
+  },
+  {
+    "type": "planner_fallback",
+    "reason": "LLM planner failed",
+    "details": "siteWhitelist is not defined",
+    "timestamp": "2025-05-23T01:45:58.030Z"
+  },
+  {
+    "type": "action",
+    "action": {
+      "type": "scroll",
+      "params": {
+        "direction": "down",
+        "amount": 776
+      }
+    },
+    "plannerType": "random",
+    "timestamp": "2025-05-23T01:45:58.037Z"
+  },
+  {
+    "type": "planner_fallback",
+    "reason": "LLM planner failed",
+    "details": "siteWhitelist is not defined",
+    "timestamp": "2025-05-23T01:45:58.547Z"
+  },
+  {
+    "type": "action",
+    "action": {
+      "type": "dwell",
+      "params": {
+        "duration": 819
+      }
+    },
+    "plannerType": "random",
+    "timestamp": "2025-05-23T01:45:59.374Z"
+  },
+  {
+    "type": "planner_fallback",
+    "reason": "LLM planner failed",
+    "details": "siteWhitelist is not defined",
+    "timestamp": "2025-05-23T01:45:59.882Z"
+  },
+  {
+    "type": "action",
+    "action": {
+      "type": "scroll",
+      "params": {
+        "direction": "down",
+        "amount": 223
+      }
+    },
+    "plannerType": "random",
+    "timestamp": "2025-05-23T01:45:59.885Z"
+  },
+  {
+    "type": "planner_fallback",
+    "reason": "LLM planner failed",
+    "details": "siteWhitelist is not defined",
+    "timestamp": "2025-05-23T01:46:00.391Z"
+  },
+  {
+    "type": "action",
+    "action": {
+      "type": "scroll",
+      "params": {
+        "direction": "up",
+        "amount": 624
+      }
+    },
+    "plannerType": "random",
+    "timestamp": "2025-05-23T01:46:00.396Z"
+  },
+  {
+    "type": "planner_fallback",
+    "reason": "LLM planner failed",
+    "details": "siteWhitelist is not defined",
+    "timestamp": "2025-05-23T01:46:00.910Z"
+  },
+  {
+    "type": "action",
+    "action": {
+      "type": "click",
+      "params": {
+        "selector": "body"
+      }
+    },
+    "plannerType": "random",
+    "timestamp": "2025-05-23T01:46:00.973Z"
+  },
+  {
+    "type": "planner_fallback",
+    "reason": "LLM planner failed",
+    "details": "siteWhitelist is not defined",
+    "timestamp": "2025-05-23T01:46:01.485Z"
+  },
+  {
+    "type": "action",
+    "action": {
+      "type": "click",
+      "params": {
+        "selector": "body"
+      }
+    },
+    "plannerType": "random",
+    "timestamp": "2025-05-23T01:46:01.521Z"
+  },
+  {
+    "type": "planner_fallback",
+    "reason": "LLM planner failed",
+    "details": "siteWhitelist is not defined",
+    "timestamp": "2025-05-23T01:46:02.030Z"
+  },
+  {
+    "type": "action",
+    "action": {
+      "type": "click",
+      "params": {
+        "selector": "body"
+      }
+    },
+    "plannerType": "random",
+    "timestamp": "2025-05-23T01:46:02.052Z"
+  },
+  {
+    "type": "planner_fallback",
+    "reason": "LLM planner failed",
+    "details": "siteWhitelist is not defined",
+    "timestamp": "2025-05-23T01:46:02.564Z"
+  },
+  {
+    "type": "action",
+    "action": {
+      "type": "scroll",
+      "params": {
+        "direction": "up",
+        "amount": 280
+      }
+    },
+    "plannerType": "random",
+    "timestamp": "2025-05-23T01:46:02.567Z"
+  },
+  {
+    "type": "planner_fallback",
+    "reason": "LLM planner failed",
+    "details": "siteWhitelist is not defined",
+    "timestamp": "2025-05-23T01:46:03.080Z"
+  },
+  {
+    "type": "action",
+    "action": {
+      "type": "dwell",
+      "params": {
+        "duration": 788
+      }
+    },
+    "plannerType": "random",
+    "timestamp": "2025-05-23T01:46:03.884Z"
+  },
+  {
+    "type": "planner_fallback",
+    "reason": "LLM planner failed",
+    "details": "siteWhitelist is not defined",
+    "timestamp": "2025-05-23T01:46:04.384Z"
+  },
+  {
+    "type": "action",
+    "action": {
+      "type": "dwell",
+      "params": {
+        "duration": 1472
+      }
+    },
+    "plannerType": "random",
+    "timestamp": "2025-05-23T01:46:05.859Z"
+  },
+  {
+    "type": "planner_fallback",
+    "reason": "LLM planner failed",
+    "details": "siteWhitelist is not defined",
+    "timestamp": "2025-05-23T01:46:06.361Z"
+  },
+  {
+    "type": "action",
+    "action": {
+      "type": "scroll",
+      "params": {
+        "direction": "down",
+        "amount": 988
+      }
+    },
+    "plannerType": "random",
+    "timestamp": "2025-05-23T01:46:06.364Z"
+  },
+  {
+    "type": "planner_fallback",
+    "reason": "LLM planner failed",
+    "details": "siteWhitelist is not defined",
+    "timestamp": "2025-05-23T01:46:06.866Z"
+  },
+  {
+    "type": "action",
+    "action": {
+      "type": "scroll",
+      "params": {
+        "direction": "down",
+        "amount": 775
+      }
+    },
+    "plannerType": "random",
+    "timestamp": "2025-05-23T01:46:06.870Z"
+  },
+  {
+    "type": "planner_fallback",
+    "reason": "LLM planner failed",
+    "details": "siteWhitelist is not defined",
+    "timestamp": "2025-05-23T01:46:07.380Z"
+  },
+  {
+    "type": "action",
+    "action": {
+      "type": "dwell",
+      "params": {
+        "duration": 1471
+      }
+    },
+    "plannerType": "random",
+    "timestamp": "2025-05-23T01:46:08.858Z"
+  },
+  {
+    "type": "planner_fallback",
+    "reason": "LLM planner failed",
+    "details": "siteWhitelist is not defined",
+    "timestamp": "2025-05-23T01:46:09.363Z"
+  },
+  {
+    "type": "action",
+    "action": {
+      "type": "click",
+      "params": {
+        "selector": "body"
+      }
+    },
+    "plannerType": "random",
+    "timestamp": "2025-05-23T01:46:09.585Z"
+  },
+  {
+    "type": "planner_fallback",
+    "reason": "LLM planner failed",
+    "details": "siteWhitelist is not defined",
+    "timestamp": "2025-05-23T01:46:10.098Z"
+  },
+  {
+    "type": "action",
+    "action": {
+      "type": "click",
+      "params": {
+        "selector": "body"
+      }
+    },
+    "plannerType": "random",
+    "timestamp": "2025-05-23T01:46:10.161Z"
+  },
+  {
+    "type": "planner_fallback",
+    "reason": "LLM planner failed",
+    "details": "siteWhitelist is not defined",
+    "timestamp": "2025-05-23T01:46:10.673Z"
+  },
+  {
+    "type": "action",
+    "action": {
+      "type": "click",
+      "params": {
+        "selector": "body"
+      }
+    },
+    "plannerType": "random",
+    "timestamp": "2025-05-23T01:46:10.704Z"
+  },
+  {
+    "type": "planner_fallback",
+    "reason": "LLM planner failed",
+    "details": "siteWhitelist is not defined",
+    "timestamp": "2025-05-23T01:46:11.211Z"
+  },
+  {
+    "type": "action",
+    "action": {
+      "type": "scroll",
+      "params": {
+        "direction": "down",
+        "amount": 603
+      }
+    },
+    "plannerType": "random",
+    "timestamp": "2025-05-23T01:46:11.215Z"
+  },
+  {
+    "type": "planner_fallback",
+    "reason": "LLM planner failed",
+    "details": "siteWhitelist is not defined",
+    "timestamp": "2025-05-23T01:46:11.728Z"
+  },
+  {
+    "type": "action",
+    "action": {
+      "type": "dwell",
+      "params": {
+        "duration": 1142
+      }
+    },
+    "plannerType": "random",
+    "timestamp": "2025-05-23T01:46:12.880Z"
+  },
+  {
+    "type": "planner_fallback",
+    "reason": "LLM planner failed",
+    "details": "siteWhitelist is not defined",
+    "timestamp": "2025-05-23T01:46:13.393Z"
+  },
+  {
+    "type": "action",
+    "action": {
+      "type": "dwell",
+      "params": {
+        "duration": 680
+      }
+    },
+    "plannerType": "random",
+    "timestamp": "2025-05-23T01:46:14.076Z"
+  },
+  {
+    "type": "planner_fallback",
+    "reason": "LLM planner failed",
+    "details": "siteWhitelist is not defined",
+    "timestamp": "2025-05-23T01:46:14.589Z"
+  },
+  {
+    "type": "action_error",
+    "error": "page.waitForTimeout: Target page, context or browser has been closed",
+    "action": {
+      "type": "dwell",
+      "params": {
+        "duration": 1023
+      }
+    },
+    "timestamp": "2025-05-23T01:46:15.270Z"
+  },
+  {
+    "type": "fatal_error",
+    "error": "Page closed before actions",
+    "url": "https://www.wikipedia.org/",
+    "timestamp": "2025-05-23T01:46:15.782Z"
+  },
+  {
+    "type": "session_end",
+    "timestamp": "2025-05-23T01:46:15.782Z"
+  }
+]

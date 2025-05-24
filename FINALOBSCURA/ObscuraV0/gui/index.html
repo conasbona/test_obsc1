@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Obscura Protection Toggles</title>
+  <style>
+    body { font-family: Arial, sans-serif; margin: 2em; }
+    .toggle-list { max-width: 400px; }
+    .toggle-item { display: flex; align-items: center; margin-bottom: 1em; }
+    .toggle-item label { flex: 1; }
+    .toggle-item input[type="checkbox"] { width: 20px; height: 20px; }
+    .save-btn { margin-top: 2em; padding: 0.5em 2em; font-size: 1.1em; }
+  </style>
+</head>
+<body>
+  <h2>Obscura: Protection Toggles</h2>
+  <form id="toggles-form" class="toggle-list"></form>
+  <button id="save-btn" class="save-btn">Save Changes</button>
+  <div id="status"></div>
+  <script src="renderer.js"></script>
+</body>
+</html>

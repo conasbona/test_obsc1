@@ -1,0 +1,162 @@
+[
+  {
+    "persona_id": "persona_002",
+    "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.1 Safari/605.1.15",
+    "region": "us",
+    "proxy": {
+      "host": "pr.oxylabs.io",
+      "port": 7777,
+      "username": "customer-shaundevan_dM4al-cc-us",
+      "password": "Nila2121testmitmproxy_"
+    },
+    "planner": "llm",
+    "extra": {
+      "fonts": ["Helvetica Neue", "Geneva", "Arial"],
+      "timezone": "America/Chicago"
+    }
+  },
+  {
+    "persona_id": "persona_003",
+    "user_agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.6045.159 Safari/537.36",
+    "region": "us",
+    "proxy": {
+      "host": "pr.oxylabs.io",
+      "port": 7777,
+      "username": "customer-shaundevan_dM4al-cc-us",
+      "password": "Nila2121testmitmproxy_"
+    },
+    "planner": "random",
+    "extra": {
+      "fonts": ["Liberation Sans", "DejaVu Sans", "Arial"],
+      "timezone": "America/Los_Angeles"
+    }
+  },
+  {
+    "persona_id": "persona_004",
+    "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.5845.97 Safari/537.36",
+    "region": "us",
+    "proxy": {
+      "host": "pr.oxylabs.io",
+      "port": 7777,
+      "username": "customer-shaundevan_dM4al-cc-us",
+      "password": "Nila2121testmitmproxy_"
+    },
+    "planner": "random",
+    "extra": {
+      "fonts": ["Calibri", "Verdana", "Segoe UI"],
+      "timezone": "America/New_York"
+    }
+  },
+  {
+    "persona_id": "persona_005",
+    "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.6099.224 Safari/537.36",
+    "region": "us",
+    "proxy": {
+      "host": "pr.oxylabs.io",
+      "port": 7777,
+      "username": "customer-shaundevan_dM4al-cc-us",
+      "password": "Nila2121testmitmproxy_"
+    },
+    "planner": "llm",
+    "extra": {
+      "fonts": ["Menlo", "Monaco", "Arial"],
+      "timezone": "America/Denver"
+    }
+  },
+  {
+    "persona_id": "persona_006",
+    "user_agent": "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:109.0) Gecko/20100101 Firefox/115.0",
+    "region": "us",
+    "proxy": {
+      "host": "pr.oxylabs.io",
+      "port": 7777,
+      "username": "customer-shaundevan_dM4al-cc-us",
+      "password": "Nila2121testmitmproxy_"
+    },
+    "planner": "random",
+    "extra": {
+      "fonts": ["Ubuntu", "DejaVu Sans Mono", "Arial"],
+      "timezone": "America/Phoenix"
+    }
+  },
+  {
+    "persona_id": "persona_007",
+    "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.6167.140 Safari/537.36",
+    "region": "us",
+    "proxy": {
+      "host": "pr.oxylabs.io",
+      "port": 7777,
+      "username": "customer-shaundevan_dM4al-cc-us",
+      "password": "Nila2121testmitmproxy_"
+    },
+    "planner": "llm",
+    "extra": {
+      "fonts": ["Segoe UI", "Arial", "Times New Roman"],
+      "timezone": "America/Detroit"
+    }
+  },
+  {
+    "persona_id": "persona_008",
+    "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 11_6_1) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/16.0 Safari/605.1.15",
+    "region": "us",
+    "proxy": {
+      "host": "pr.oxylabs.io",
+      "port": 7777,
+      "username": "customer-shaundevan_dM4al-cc-us",
+      "password": "Nila2121testmitmproxy_"
+    },
+    "planner": "random",
+    "extra": {
+      "fonts": ["Arial", "Helvetica", "Courier"],
+      "timezone": "America/Anchorage"
+    }
+  },
+  {
+    "persona_id": "persona_009",
+    "user_agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.5993.89 Safari/537.36",
+    "region": "us",
+    "proxy": {
+      "host": "pr.oxylabs.io",
+      "port": 7777,
+      "username": "customer-shaundevan_dM4al-cc-us",
+      "password": "Nila2121testmitmproxy_"
+    },
+    "planner": "random",
+    "extra": {
+      "fonts": ["Noto Sans", "Liberation Serif", "Arial"],
+      "timezone": "America/Chicago"
+    }
+  },
+  {
+    "persona_id": "persona_010",
+    "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.5735.90 Safari/537.36",
+    "region": "us",
+    "proxy": {
+      "host": "pr.oxylabs.io",
+      "port": 7777,
+      "username": "customer-shaundevan_dM4al-cc-us",
+      "password": "Nila2121testmitmproxy_"
+    },
+    "planner": "llm",
+    "extra": {
+      "fonts": ["Arial", "Comic Sans MS", "Tahoma"],
+      "timezone": "America/New_York"
+    }
+  },
+  {
+    "persona_id": "persona_011",
+    "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 14_4_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.6261.112 Safari/537.36",
+    "region": "us",
+    "proxy": {
+      "host": "pr.oxylabs.io",
+      "port": 7777,
+      "username": "customer-shaundevan_dM4al-cc-us",
+      "password": "Nila2121testmitmproxy_"
+    },
+    "planner": "llm",
+    "extra": {
+      "fonts": ["Fira Sans", "Arial", "Georgia"],
+      "timezone": "America/Boise"
+    }
+  }
+]

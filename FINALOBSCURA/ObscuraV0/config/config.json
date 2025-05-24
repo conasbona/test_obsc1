@@ -1,0 +1,24 @@
+{
+  "personas": "../config/persona_proxy_pool.json",
+  "proxies": "../config/persona_proxy_pool.json",
+  "maxSessions": 5,
+  "maxLLMSessions": 1,
+  "sessionScript": "../scripts/puppet_runner.js",
+  "logLevel": "info",
+  "protectionToggles": {
+    "canvas": true,
+    "webgl": true,
+    "fonts": true,
+    "navigator": true,
+    "plugins": true,
+    "proxy": true,
+    "userAgent": true,
+    "puppets": true,
+    "headless": true
+  },
+  "otherSettings": {
+    "sessionTimeoutMs": 60000,
+    "personaSelection": "llm-preferred",
+    "proxySelection": "random"
+  }
+}

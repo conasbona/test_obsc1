@@ -1,0 +1,315 @@
+[
+  {
+    "type": "session_start",
+    "persona_id": "persona_002",
+    "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.1 Safari/605.1.15",
+    "proxy": {
+      "host": "pr.oxylabs.io",
+      "port": 7777,
+      "username": "customer-shaundevan_dM4al-cc-us",
+      "password": "Nila2121testmitmproxy_"
+    },
+    "timezone": "America/Chicago",
+    "fonts": [
+      "Helvetica Neue",
+      "Geneva",
+      "Arial"
+    ],
+    "urls": [
+      "https://www.reddit.com/",
+      "https://www.bbc.com/",
+      "https://www.nytimes.com/",
+      "https://www.wikipedia.org/",
+      "https://www.cnn.com/"
+    ],
+    "plannerType": "random",
+    "timestamp": "2025-05-23T00:15:39.777Z"
+  },
+  {
+    "type": "action",
+    "action": {
+      "type": "visit",
+      "params": {
+        "url": "https://www.bbc.com/"
+      }
+    },
+    "plannerType": "random",
+    "timestamp": "2025-05-23T00:15:41.334Z"
+  },
+  {
+    "type": "action",
+    "action": {
+      "type": "dwell",
+      "params": {
+        "duration": 1426
+      }
+    },
+    "plannerType": "random",
+    "timestamp": "2025-05-23T00:15:42.772Z"
+  },
+  {
+    "type": "action",
+    "action": {
+      "type": "scroll",
+      "params": {
+        "direction": "down",
+        "amount": 404
+      }
+    },
+    "plannerType": "random",
+    "timestamp": "2025-05-23T00:15:42.778Z"
+  },
+  {
+    "type": "action",
+    "action": {
+      "type": "scroll",
+      "params": {
+        "direction": "down",
+        "amount": 826
+      }
+    },
+    "plannerType": "random",
+    "timestamp": "2025-05-23T00:15:42.780Z"
+  },
+  {
+    "type": "action",
+    "action": {
+      "type": "dwell",
+      "params": {
+        "duration": 593
+      }
+    },
+    "plannerType": "random",
+    "timestamp": "2025-05-23T00:15:43.378Z"
+  },
+  {
+    "type": "action",
+    "action": {
+      "type": "scroll",
+      "params": {
+        "direction": "down",
+        "amount": 924
+      }
+    },
+    "plannerType": "random",
+    "timestamp": "2025-05-23T00:15:43.381Z"
+  },
+  {
+    "type": "action",
+    "action": {
+      "type": "dwell",
+      "params": {
+        "duration": 682
+      }
+    },
+    "plannerType": "random",
+    "timestamp": "2025-05-23T00:15:44.064Z"
+  },
+  {
+    "type": "action",
+    "action": {
+      "type": "click",
+      "params": {
+        "selector": "body"
+      }
+    },
+    "plannerType": "random",
+    "timestamp": "2025-05-23T00:15:44.167Z"
+  },
+  {
+    "type": "action",
+    "action": {
+      "type": "dwell",
+      "params": {
+        "duration": 534
+      }
+    },
+    "plannerType": "random",
+    "timestamp": "2025-05-23T00:15:44.710Z"
+  },
+  {
+    "type": "action",
+    "action": {
+      "type": "click",
+      "params": {
+        "selector": "body"
+      }
+    },
+    "plannerType": "random",
+    "timestamp": "2025-05-23T00:15:44.747Z"
+  },
+  {
+    "type": "action",
+    "action": {
+      "type": "click",
+      "params": {
+        "selector": "body"
+      }
+    },
+    "plannerType": "random",
+    "timestamp": "2025-05-23T00:15:44.799Z"
+  },
+  {
+    "type": "action",
+    "action": {
+      "type": "dwell",
+      "params": {
+        "duration": 1419
+      }
+    },
+    "plannerType": "random",
+    "timestamp": "2025-05-23T00:15:46.220Z"
+  },
+  {
+    "type": "action",
+    "action": {
+      "type": "dwell",
+      "params": {
+        "duration": 1056
+      }
+    },
+    "plannerType": "random",
+    "timestamp": "2025-05-23T00:15:47.284Z"
+  },
+  {
+    "type": "action",
+    "action": {
+      "type": "click",
+      "params": {
+        "selector": "body"
+      }
+    },
+    "plannerType": "random",
+    "timestamp": "2025-05-23T00:15:47.330Z"
+  },
+  {
+    "type": "action",
+    "action": {
+      "type": "click",
+      "params": {
+        "selector": "body"
+      }
+    },
+    "plannerType": "random",
+    "timestamp": "2025-05-23T00:15:47.397Z"
+  },
+  {
+    "type": "action",
+    "action": {
+      "type": "scroll",
+      "params": {
+        "direction": "up",
+        "amount": 530
+      }
+    },
+    "plannerType": "random",
+    "timestamp": "2025-05-23T00:15:47.400Z"
+  },
+  {
+    "type": "action",
+    "action": {
+      "type": "dwell",
+      "params": {
+        "duration": 603
+      }
+    },
+    "plannerType": "random",
+    "timestamp": "2025-05-23T00:15:48.016Z"
+  },
+  {
+    "type": "action",
+    "action": {
+      "type": "scroll",
+      "params": {
+        "direction": "down",
+        "amount": 391
+      }
+    },
+    "plannerType": "random",
+    "timestamp": "2025-05-23T00:15:48.019Z"
+  },
+  {
+    "type": "action",
+    "action": {
+      "type": "scroll",
+      "params": {
+        "direction": "down",
+        "amount": 547
+      }
+    },
+    "plannerType": "random",
+    "timestamp": "2025-05-23T00:15:48.021Z"
+  },
+  {
+    "type": "action",
+    "action": {
+      "type": "click",
+      "params": {
+        "selector": "body"
+      }
+    },
+    "plannerType": "random",
+    "timestamp": "2025-05-23T00:15:49.461Z"
+  },
+  {
+    "type": "action",
+    "action": {
+      "type": "scroll",
+      "params": {
+        "direction": "up",
+        "amount": 577
+      }
+    },
+    "plannerType": "random",
+    "timestamp": "2025-05-23T00:15:49.514Z"
+  },
+  {
+    "type": "action",
+    "action": {
+      "type": "click",
+      "params": {
+        "selector": "body"
+      }
+    },
+    "plannerType": "random",
+    "timestamp": "2025-05-23T00:15:49.610Z"
+  },
+  {
+    "type": "action",
+    "action": {
+      "type": "dwell",
+      "params": {
+        "duration": 1347
+      }
+    },
+    "plannerType": "random",
+    "timestamp": "2025-05-23T00:15:50.972Z"
+  },
+  {
+    "type": "action",
+    "action": {
+      "type": "scroll",
+      "params": {
+        "direction": "up",
+        "amount": 767
+      }
+    },
+    "plannerType": "random",
+    "timestamp": "2025-05-23T00:15:50.975Z"
+  },
+  {
+    "type": "action",
+    "action": {
+      "type": "click",
+      "params": {
+        "selector": "body"
+      }
+    },
+    "plannerType": "random",
+    "timestamp": "2025-05-23T00:15:51.013Z"
+  },
+  {
+    "type": "session_end",
+    "timestamp": "2025-05-23T00:15:51.013Z"
+  }
+]

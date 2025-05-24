@@ -1,0 +1,405 @@
+[
+  {
+    "type": "session_start",
+    "persona_id": "persona_002",
+    "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.1 Safari/605.1.15",
+    "proxy": {
+      "host": "pr.oxylabs.io",
+      "port": 7777,
+      "username": "customer-shaundevan_dM4al-cc-us",
+      "password": "Nila2121testmitmproxy_"
+    },
+    "timezone": "America/Chicago",
+    "fonts": [
+      "Helvetica Neue",
+      "Geneva",
+      "Arial"
+    ],
+    "urls": [
+      "https://www.nytimes.com/",
+      "https://www.cnn.com/",
+      "https://www.wikipedia.org/",
+      "https://www.reddit.com/",
+      "https://www.bbc.com/"
+    ],
+    "plannerType": "random",
+    "timestamp": "2025-05-23T00:50:50.884Z"
+  },
+  {
+    "type": "action",
+    "action": {
+      "type": "visit",
+      "params": {
+        "url": "https://www.cnn.com/"
+      }
+    },
+    "plannerType": "random",
+    "timestamp": "2025-05-23T00:50:53.921Z"
+  },
+  {
+    "type": "action",
+    "action": {
+      "type": "dwell",
+      "params": {
+        "duration": 855
+      }
+    },
+    "plannerType": "random",
+    "timestamp": "2025-05-23T00:50:55.277Z"
+  },
+  {
+    "type": "action",
+    "action": {
+      "type": "click",
+      "params": {
+        "selector": "body"
+      }
+    },
+    "plannerType": "random",
+    "timestamp": "2025-05-23T00:50:57.516Z"
+  },
+  {
+    "type": "action",
+    "action": {
+      "type": "dwell",
+      "params": {
+        "duration": 791
+      }
+    },
+    "plannerType": "random",
+    "timestamp": "2025-05-23T00:50:58.826Z"
+  },
+  {
+    "type": "action",
+    "action": {
+      "type": "click",
+      "params": {
+        "selector": "body"
+      }
+    },
+    "plannerType": "random",
+    "timestamp": "2025-05-23T00:50:59.389Z"
+  },
+  {
+    "type": "action",
+    "action": {
+      "type": "click",
+      "params": {
+        "selector": "body"
+      }
+    },
+    "plannerType": "random",
+    "timestamp": "2025-05-23T00:50:59.923Z"
+  },
+  {
+    "type": "action",
+    "action": {
+      "type": "scroll",
+      "params": {
+        "direction": "down",
+        "amount": 242
+      }
+    },
+    "plannerType": "random",
+    "timestamp": "2025-05-23T00:51:00.435Z"
+  },
+  {
+    "type": "action",
+    "action": {
+      "type": "click",
+      "params": {
+        "selector": "body"
+      }
+    },
+    "plannerType": "random",
+    "timestamp": "2025-05-23T00:51:00.973Z"
+  },
+  {
+    "type": "action",
+    "action": {
+      "type": "scroll",
+      "params": {
+        "direction": "up",
+        "amount": 717
+      }
+    },
+    "plannerType": "random",
+    "timestamp": "2025-05-23T00:51:01.484Z"
+  },
+  {
+    "type": "action",
+    "action": {
+      "type": "click",
+      "params": {
+        "selector": "body"
+      }
+    },
+    "plannerType": "random",
+    "timestamp": "2025-05-23T00:51:02.040Z"
+  },
+  {
+    "type": "action",
+    "action": {
+      "type": "dwell",
+      "params": {
+        "duration": 996
+      }
+    },
+    "plannerType": "random",
+    "timestamp": "2025-05-23T00:51:03.540Z"
+  },
+  {
+    "type": "action",
+    "action": {
+      "type": "dwell",
+      "params": {
+        "duration": 508
+      }
+    },
+    "plannerType": "random",
+    "timestamp": "2025-05-23T00:51:04.566Z"
+  },
+  {
+    "type": "action",
+    "action": {
+      "type": "dwell",
+      "params": {
+        "duration": 1028
+      }
+    },
+    "plannerType": "random",
+    "timestamp": "2025-05-23T00:51:06.105Z"
+  },
+  {
+    "type": "action",
+    "action": {
+      "type": "dwell",
+      "params": {
+        "duration": 700
+      }
+    },
+    "plannerType": "random",
+    "timestamp": "2025-05-23T00:51:07.329Z"
+  },
+  {
+    "type": "action",
+    "action": {
+      "type": "scroll",
+      "params": {
+        "direction": "down",
+        "amount": 671
+      }
+    },
+    "plannerType": "random",
+    "timestamp": "2025-05-23T00:51:07.910Z"
+  },
+  {
+    "type": "action",
+    "action": {
+      "type": "dwell",
+      "params": {
+        "duration": 621
+      }
+    },
+    "plannerType": "random",
+    "timestamp": "2025-05-23T00:51:09.034Z"
+  },
+  {
+    "type": "action",
+    "action": {
+      "type": "dwell",
+      "params": {
+        "duration": 817
+      }
+    },
+    "plannerType": "random",
+    "timestamp": "2025-05-23T00:51:10.369Z"
+  },
+  {
+    "type": "action",
+    "action": {
+      "type": "click",
+      "params": {
+        "selector": "body"
+      }
+    },
+    "plannerType": "random",
+    "timestamp": "2025-05-23T00:51:10.959Z"
+  },
+  {
+    "type": "action",
+    "action": {
+      "type": "scroll",
+      "params": {
+        "direction": "down",
+        "amount": 675
+      }
+    },
+    "plannerType": "random",
+    "timestamp": "2025-05-23T00:51:11.476Z"
+  },
+  {
+    "type": "action",
+    "action": {
+      "type": "scroll",
+      "params": {
+        "direction": "up",
+        "amount": 718
+      }
+    },
+    "plannerType": "random",
+    "timestamp": "2025-05-23T00:51:11.985Z"
+  },
+  {
+    "type": "action",
+    "action": {
+      "type": "click",
+      "params": {
+        "selector": "body"
+      }
+    },
+    "plannerType": "random",
+    "timestamp": "2025-05-23T00:51:12.537Z"
+  },
+  {
+    "type": "action",
+    "action": {
+      "type": "click",
+      "params": {
+        "selector": "body"
+      }
+    },
+    "plannerType": "random",
+    "timestamp": "2025-05-23T00:51:13.126Z"
+  },
+  {
+    "type": "action",
+    "action": {
+      "type": "scroll",
+      "params": {
+        "direction": "down",
+        "amount": 771
+      }
+    },
+    "plannerType": "random",
+    "timestamp": "2025-05-23T00:51:13.642Z"
+  },
+  {
+    "type": "action",
+    "action": {
+      "type": "dwell",
+      "params": {
+        "duration": 561
+      }
+    },
+    "plannerType": "random",
+    "timestamp": "2025-05-23T00:51:14.709Z"
+  },
+  {
+    "type": "action",
+    "action": {
+      "type": "dwell",
+      "params": {
+        "duration": 1357
+      }
+    },
+    "plannerType": "random",
+    "timestamp": "2025-05-23T00:51:16.578Z"
+  },
+  {
+    "type": "action",
+    "action": {
+      "type": "scroll",
+      "params": {
+        "direction": "down",
+        "amount": 514
+      }
+    },
+    "plannerType": "random",
+    "timestamp": "2025-05-23T00:51:17.087Z"
+  },
+  {
+    "type": "action",
+    "action": {
+      "type": "dwell",
+      "params": {
+        "duration": 648
+      }
+    },
+    "plannerType": "random",
+    "timestamp": "2025-05-23T00:51:18.242Z"
+  },
+  {
+    "type": "action",
+    "action": {
+      "type": "scroll",
+      "params": {
+        "direction": "down",
+        "amount": 373
+      }
+    },
+    "plannerType": "random",
+    "timestamp": "2025-05-23T00:51:18.753Z"
+  },
+  {
+    "type": "action",
+    "action": {
+      "type": "dwell",
+      "params": {
+        "duration": 1309
+      }
+    },
+    "plannerType": "random",
+    "timestamp": "2025-05-23T00:51:20.577Z"
+  },
+  {
+    "type": "action",
+    "action": {
+      "type": "dwell",
+      "params": {
+        "duration": 551
+      }
+    },
+    "plannerType": "random",
+    "timestamp": "2025-05-23T00:51:21.644Z"
+  },
+  {
+    "type": "action_error",
+    "error": "page.waitForTimeout: Target page, context or browser has been closed",
+    "action": {
+      "type": "dwell",
+      "params": {
+        "duration": 1375
+      }
+    },
+    "timestamp": "2025-05-23T00:51:22.253Z"
+  },
+  {
+    "type": "fatal_error",
+    "error": "Page closed before actions",
+    "url": "https://www.wikipedia.org/",
+    "timestamp": "2025-05-23T00:51:22.762Z"
+  },
+  {
+    "type": "fatal_error",
+    "error": "Page closed before actions",
+    "url": "https://www.wikipedia.org/",
+    "timestamp": "2025-05-23T00:51:22.762Z"
+  },
+  {
+    "type": "fatal_error",
+    "error": "Page closed before actions",
+    "url": "https://www.wikipedia.org/",
+    "timestamp": "2025-05-23T00:51:22.762Z"
+  },
+  {
+    "type": "fatal_error",
+    "error": "Page closed before actions",
+    "url": "https://www.wikipedia.org/",
+    "timestamp": "2025-05-23T00:51:22.762Z"
+  },
+  {
+    "type": "session_end",
+    "timestamp": "2025-05-23T00:51:22.762Z"
+  }
+]

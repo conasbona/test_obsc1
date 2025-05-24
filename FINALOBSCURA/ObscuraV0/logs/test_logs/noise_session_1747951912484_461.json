@@ -1,0 +1,93 @@
+[
+  {
+    "type": "session_start",
+    "persona_id": "persona_002",
+    "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.1 Safari/605.1.15",
+    "proxy": {
+      "host": "pr.oxylabs.io",
+      "port": 7777,
+      "username": "customer-shaundevan_dM4al-cc-us",
+      "password": "Nila2121testmitmproxy_"
+    },
+    "timezone": "America/Chicago",
+    "fonts": [
+      "Helvetica Neue",
+      "Geneva",
+      "Arial"
+    ],
+    "url": "https://www.reddit.com/",
+    "timestamp": "2025-05-22T22:11:59.607Z"
+  },
+  {
+    "type": "action",
+    "action": "click",
+    "status": "error",
+    "error": "elementHandle.click: Element is not attached to the DOM\nCall log:\n\u001b[2m  - attempting click action\u001b[22m\n\u001b[2m    2 × waiting for element to be visible, enabled and stable\u001b[22m\n\u001b[2m      - element is visible, enabled and stable\u001b[22m\n\u001b[2m      - scrolling into view if needed\u001b[22m\n\u001b[2m      - done scrolling\u001b[22m\n\u001b[2m      - <video tabindex=\"-1\" playsinline=\"\" preload=\"none\" src=\"https://packaged-media.redd.it/ac8duqxz2a2f1/pb/m2-res_640p.mp4?m=DASHPlaylist.mpd&v=1&e=1747954800&s=82ea6d1e4bd6c17575b2646abcfc39839df13349\" poster=\"https://external-preview.redd.it/what-kind-of-vending-machine-is-this-v0-bmp5N25pc3oyYTJmMYS9YX4Qt29lbKensy6CtbVOs8G9HMw7xxEVi52IIFfP.png?width=640&crop=smart&format=pjpg&auto=webp&s=6e1e310e1371ef7e429a70a1d9a12c473602b32e\"></video> intercepts pointer events\u001b[22m\n\u001b[2m    - retrying click action\u001b[22m\n\u001b[2m    - waiting 20ms\u001b[22m\n\u001b[2m    2 × waiting for element to be visible, enabled and stable\u001b[22m\n\u001b[2m      - element is visible, enabled and stable\u001b[22m\n\u001b[2m      - scrolling into view if needed\u001b[22m\n\u001b[2m      - done scrolling\u001b[22m\n\u001b[2m      - <video tabindex=\"-1\" playsinline=\"\" preload=\"none\" src=\"https://packaged-media.redd.it/ac8duqxz2a2f1/pb/m2-res_640p.mp4?m=DASHPlaylist.mpd&v=1&e=1747954800&s=82ea6d1e4bd6c17575b2646abcfc39839df13349\" poster=\"https://external-preview.redd.it/what-kind-of-vending-machine-is-this-v0-bmp5N25pc3oyYTJmMYS9YX4Qt29lbKensy6CtbVOs8G9HMw7xxEVi52IIFfP.png?width=640&crop=smart&format=pjpg&auto=webp&s=6e1e310e1371ef7e429a70a1d9a12c473602b32e\"></video> intercepts pointer events\u001b[22m\n\u001b[2m    - retrying click action\u001b[22m\n\u001b[2m      - waiting 100ms\u001b[22m\n\u001b[2m    3 × waiting for element to be visible, enabled and stable\u001b[22m\n\u001b[2m      - element is visible, enabled and stable\u001b[22m\n\u001b[2m      - scrolling into view if needed\u001b[22m\n\u001b[2m      - done scrolling\u001b[22m\n\u001b[2m      - <video tabindex=\"-1\" playsinline=\"\" preload=\"none\" src=\"https://packaged-media.redd.it/ac8duqxz2a2f1/pb/m2-res_640p.mp4?m=DASHPlaylist.mpd&v=1&e=1747954800&s=82ea6d1e4bd6c17575b2646abcfc39839df13349\" poster=\"https://external-preview.redd.it/what-kind-of-vending-machine-is-this-v0-bmp5N25pc3oyYTJmMYS9YX4Qt29lbKensy6CtbVOs8G9HMw7xxEVi52IIFfP.png?width=640&crop=smart&format=pjpg&auto=webp&s=6e1e310e1371ef7e429a70a1d9a12c473602b32e\"></video> intercepts pointer events\u001b[22m\n\u001b[2m    - retrying click action\u001b[22m\n\u001b[2m      - waiting 500ms\u001b[22m\n\u001b[2m    14 × waiting for element to be visible, enabled and stable\u001b[22m\n\u001b[2m       - element is not visible\u001b[22m\n\u001b[2m     - retrying click action\u001b[22m\n\u001b[2m       - waiting 500ms\u001b[22m\n\u001b[2m    - waiting for element to be visible, enabled and stable\u001b[22m\n",
+    "timestamp": "2025-05-22T22:12:09.461Z"
+  },
+  {
+    "type": "action",
+    "action": "scroll",
+    "status": "success",
+    "timestamp": "2025-05-22T22:12:10.582Z"
+  },
+  {
+    "type": "action",
+    "action": "mouse",
+    "status": "success",
+    "timestamp": "2025-05-22T22:12:11.425Z"
+  },
+  {
+    "type": "action",
+    "action": "dwell",
+    "status": "error",
+    "error": "page.waitForTimeout: Target page, context or browser has been closed",
+    "timestamp": "2025-05-22T22:12:11.572Z"
+  },
+  {
+    "type": "action",
+    "action": "scroll",
+    "status": "error",
+    "error": "page.evaluate: Target page, context or browser has been closed",
+    "timestamp": "2025-05-22T22:12:11.574Z"
+  },
+  {
+    "type": "action",
+    "action": "click",
+    "status": "error",
+    "error": "page.$$: Target page, context or browser has been closed",
+    "timestamp": "2025-05-22T22:12:11.575Z"
+  },
+  {
+    "type": "action",
+    "action": "dwell",
+    "status": "error",
+    "error": "page.waitForTimeout: Target page, context or browser has been closed",
+    "timestamp": "2025-05-22T22:12:11.575Z"
+  },
+  {
+    "type": "action",
+    "action": "click",
+    "status": "error",
+    "error": "page.$$: Target page, context or browser has been closed",
+    "timestamp": "2025-05-22T22:12:11.575Z"
+  },
+  {
+    "type": "action",
+    "action": "mouse",
+    "status": "error",
+    "error": "mouse.move: Target page, context or browser has been closed",
+    "timestamp": "2025-05-22T22:12:11.576Z"
+  },
+  {
+    "type": "action",
+    "action": "scroll",
+    "status": "error",
+    "error": "page.evaluate: Target page, context or browser has been closed",
+    "timestamp": "2025-05-22T22:12:11.576Z"
+  },
+  {
+    "type": "session_end",
+    "timestamp": "2025-05-22T22:12:11.576Z"
+  }
+]

@@ -1,0 +1,316 @@
+[
+  {
+    "type": "session_start",
+    "persona_id": "persona_002",
+    "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.1 Safari/605.1.15",
+    "proxy": {
+      "host": "pr.oxylabs.io",
+      "port": 7777,
+      "username": "customer-shaundevan_dM4al-cc-us",
+      "password": "Nila2121testmitmproxy_"
+    },
+    "timezone": "America/Chicago",
+    "fonts": [
+      "Helvetica Neue",
+      "Geneva",
+      "Arial"
+    ],
+    "urls": [
+      "https://www.bbc.com/",
+      "https://www.wikipedia.org/",
+      "https://www.reddit.com/",
+      "https://www.nytimes.com/",
+      "https://www.cnn.com/"
+    ],
+    "plannerType": "random",
+    "timestamp": "2025-05-23T00:18:32.333Z"
+  },
+  {
+    "type": "action",
+    "action": {
+      "type": "visit",
+      "params": {
+        "url": "https://www.wikipedia.org/"
+      }
+    },
+    "plannerType": "random",
+    "timestamp": "2025-05-23T00:18:34.451Z"
+  },
+  {
+    "type": "action",
+    "action": {
+      "type": "scroll",
+      "params": {
+        "direction": "down",
+        "amount": 212
+      }
+    },
+    "plannerType": "random",
+    "timestamp": "2025-05-23T00:18:34.459Z"
+  },
+  {
+    "type": "action",
+    "action": {
+      "type": "click",
+      "params": {
+        "selector": "body"
+      }
+    },
+    "plannerType": "random",
+    "timestamp": "2025-05-23T00:18:34.780Z"
+  },
+  {
+    "type": "action",
+    "action": {
+      "type": "scroll",
+      "params": {
+        "direction": "up",
+        "amount": 251
+      }
+    },
+    "plannerType": "random",
+    "timestamp": "2025-05-23T00:18:34.782Z"
+  },
+  {
+    "type": "action",
+    "action": {
+      "type": "click",
+      "params": {
+        "selector": "body"
+      }
+    },
+    "plannerType": "random",
+    "timestamp": "2025-05-23T00:18:34.915Z"
+  },
+  {
+    "type": "action",
+    "action": {
+      "type": "click",
+      "params": {
+        "selector": "body"
+      }
+    },
+    "plannerType": "random",
+    "timestamp": "2025-05-23T00:18:34.967Z"
+  },
+  {
+    "type": "action",
+    "action": {
+      "type": "dwell",
+      "params": {
+        "duration": 1059
+      }
+    },
+    "plannerType": "random",
+    "timestamp": "2025-05-23T00:18:36.027Z"
+  },
+  {
+    "type": "action",
+    "action": {
+      "type": "click",
+      "params": {
+        "selector": "body"
+      }
+    },
+    "plannerType": "random",
+    "timestamp": "2025-05-23T00:18:36.086Z"
+  },
+  {
+    "type": "action",
+    "action": {
+      "type": "scroll",
+      "params": {
+        "direction": "down",
+        "amount": 925
+      }
+    },
+    "plannerType": "random",
+    "timestamp": "2025-05-23T00:18:36.092Z"
+  },
+  {
+    "type": "action",
+    "action": {
+      "type": "click",
+      "params": {
+        "selector": "body"
+      }
+    },
+    "plannerType": "random",
+    "timestamp": "2025-05-23T00:18:38.109Z"
+  },
+  {
+    "type": "action",
+    "action": {
+      "type": "click",
+      "params": {
+        "selector": "body"
+      }
+    },
+    "plannerType": "random",
+    "timestamp": "2025-05-23T00:18:38.514Z"
+  },
+  {
+    "type": "action",
+    "action": {
+      "type": "click",
+      "params": {
+        "selector": "body"
+      }
+    },
+    "plannerType": "random",
+    "timestamp": "2025-05-23T00:18:38.547Z"
+  },
+  {
+    "type": "action",
+    "action": {
+      "type": "dwell",
+      "params": {
+        "duration": 782
+      }
+    },
+    "plannerType": "random",
+    "timestamp": "2025-05-23T00:18:39.335Z"
+  },
+  {
+    "type": "action",
+    "action": {
+      "type": "click",
+      "params": {
+        "selector": "body"
+      }
+    },
+    "plannerType": "random",
+    "timestamp": "2025-05-23T00:18:39.374Z"
+  },
+  {
+    "type": "action",
+    "action": {
+      "type": "scroll",
+      "params": {
+        "direction": "down",
+        "amount": 688
+      }
+    },
+    "plannerType": "random",
+    "timestamp": "2025-05-23T00:18:39.376Z"
+  },
+  {
+    "type": "action",
+    "action": {
+      "type": "click",
+      "params": {
+        "selector": "body"
+      }
+    },
+    "plannerType": "random",
+    "timestamp": "2025-05-23T00:18:41.379Z"
+  },
+  {
+    "type": "action_error",
+    "error": "page.evaluate: Execution context was destroyed, most likely because of a navigation",
+    "action": {
+      "type": "scroll",
+      "params": {
+        "direction": "up",
+        "amount": 888
+      }
+    },
+    "timestamp": "2025-05-23T00:18:41.858Z"
+  },
+  {
+    "type": "action",
+    "action": {
+      "type": "scroll",
+      "params": {
+        "direction": "up",
+        "amount": 731
+      }
+    },
+    "plannerType": "random",
+    "timestamp": "2025-05-23T00:18:41.960Z"
+  },
+  {
+    "type": "action",
+    "action": {
+      "type": "click",
+      "params": {
+        "selector": "body"
+      }
+    },
+    "plannerType": "random",
+    "timestamp": "2025-05-23T00:18:42.016Z"
+  },
+  {
+    "type": "action",
+    "action": {
+      "type": "scroll",
+      "params": {
+        "direction": "up",
+        "amount": 434
+      }
+    },
+    "plannerType": "random",
+    "timestamp": "2025-05-23T00:18:42.017Z"
+  },
+  {
+    "type": "action",
+    "action": {
+      "type": "click",
+      "params": {
+        "selector": "body"
+      }
+    },
+    "plannerType": "random",
+    "timestamp": "2025-05-23T00:18:42.144Z"
+  },
+  {
+    "type": "action",
+    "action": {
+      "type": "dwell",
+      "params": {
+        "duration": 1181
+      }
+    },
+    "plannerType": "random",
+    "timestamp": "2025-05-23T00:18:43.325Z"
+  },
+  {
+    "type": "action",
+    "action": {
+      "type": "scroll",
+      "params": {
+        "direction": "down",
+        "amount": 905
+      }
+    },
+    "plannerType": "random",
+    "timestamp": "2025-05-23T00:18:43.327Z"
+  },
+  {
+    "type": "action",
+    "action": {
+      "type": "click",
+      "params": {
+        "selector": "body"
+      }
+    },
+    "plannerType": "random",
+    "timestamp": "2025-05-23T00:18:45.142Z"
+  },
+  {
+    "type": "action",
+    "action": {
+      "type": "scroll",
+      "params": {
+        "direction": "up",
+        "amount": 422
+      }
+    },
+    "plannerType": "random",
+    "timestamp": "2025-05-23T00:18:45.232Z"
+  },
+  {
+    "type": "session_end",
+    "timestamp": "2025-05-23T00:18:45.233Z"
+  }
+]

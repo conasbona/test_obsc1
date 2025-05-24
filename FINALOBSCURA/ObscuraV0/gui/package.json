@@ -1,0 +1,12 @@
+{
+  "name": "obscura-gui",
+  "version": "1.0.0",
+  "description": "Obscura GUI for dynamic protection toggling",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron ."
+  },
+  "devDependencies": {
+    "electron": "^27.1.2"
+  }
+}

@@ -1,0 +1,37 @@
+[
+  {
+    "type": "session_start",
+    "persona_id": "persona_002",
+    "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.1 Safari/605.1.15",
+    "proxy": {
+      "host": "pr.oxylabs.io",
+      "port": 7777,
+      "username": "customer-shaundevan_dM4al-cc-us",
+      "password": "Nila2121testmitmproxy_"
+    },
+    "timezone": "America/Chicago",
+    "fonts": [
+      "Helvetica Neue",
+      "Geneva",
+      "Arial"
+    ],
+    "urls": [
+      "https://www.nytimes.com/",
+      "https://www.bbc.com/",
+      "https://www.wikipedia.org/",
+      "https://www.cnn.com/",
+      "https://www.reddit.com/"
+    ],
+    "timestamp": "2025-05-22T23:09:11.565Z"
+  },
+  {
+    "type": "fatal_error",
+    "error": "require is not defined",
+    "stack": "ReferenceError: require is not defined\n    at run (file:///C:/Users/shaun/Downloads/xander_obscura/puppet_runner.js:89:31)",
+    "timestamp": "2025-05-22T23:09:11.566Z"
+  },
+  {
+    "type": "session_end",
+    "timestamp": "2025-05-22T23:09:11.566Z"
+  }
+]
